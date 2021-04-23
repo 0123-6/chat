@@ -1,0 +1,24 @@
+### Example user template template
+### Example user template
+
+### IntelliJ IDEA ###
+.idea
+out
+gen
+gent
+*.iml
+
+### File ###
+/.apt_generated
+/.classpath
+/.factorypath
+/.project
+/.settings
+/.springBeans
+/.sts4-cache
+#/.gitignore
+
+### Pakage ###
+/build/
+/logs/
+/target/

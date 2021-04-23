@@ -1,0 +1,545 @@
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+.mHome {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    border: #ededed solid 1px;
+}
+
+.im_box {
+    width: 100%;
+    float: left;
+    background: #ededed;
+}
+
+.im_top {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    color: #333;
+    font-size: 1.6rem;
+    float: left;
+    background: #ededed;
+    text-align: center;
+}
+
+.im_top_setl {
+    float: left;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.im_top_setr {
+    float: right;
+    min-height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.im_top_btn {
+    background: #ededed;
+    border: #666666 solid 1px;
+    font-size: 1.6rem;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.im_title {
+    min-height: 4rem;
+    line-height: 4rem;
+    margin: 0 auto;
+    width: auto;
+    font-size: 1.6rem;
+    color: #666666;
+    text-align: center;
+    display: inline-block;
+}
+
+.im_lst_main {
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    background: #ffffff;
+    float: left;
+    text-align: center;
+    overflow-y: scroll
+}
+
+.im_lst_show {
+    margin: 0 auto;
+    padding: 0;
+    width: 99%;
+    background: #FFFFFF;
+    display: inline-block
+}
+
+.im_ulst_show {
+    margin: 0 auto;
+    padding: 0;
+    width: 99%;
+    background: #FFFFFF;
+    display: inline-block
+}
+
+.im_lst_uhead {
+    float: left;
+    width: 20%;
+    min-height: 3rem;
+    margin: 1%;
+    text-align: center;
+}
+
+.im_lst_uhead img {
+    width: 85%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.im_lst_user {
+    float: left;
+    width: 78%;
+}
+
+.im_lst_name {
+    float: left;
+    font-size: 2.4rem;
+    margin: 1%;
+    color: #666;
+    text-align: left;
+    width: 98%;
+    word-break: break-all;
+}
+
+.im_lst_txt {
+    float: left;
+    font-size: 1.8rem;
+    margin: 1%;
+    color: #666;
+    padding: 5px 0 5px 0;
+    max-width: 98%;
+    word-break: break-all;
+    text-align: left;
+}
+
+.im_sys_txt {
+    float: left;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin: 1%;
+    color: #666;
+    padding: 5px 0 5px 0;
+    width: 98%;
+    word-break: break-all;
+    text-align: left;
+    bottom: 1rem
+}
+
+.im_sys_mott {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 1%;
+    color: #666;
+    padding: 5px 0 5px 0;
+    word-break: break-all;
+    bottom: 1rem
+}
+
+/*群用户管理*/
+.im_grplst_show {
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    background: #FFFFFF;
+    display: inline-block;
+    float: left
+}
+
+.im_grplst_user {
+    float: left;
+    width: 58%;
+}
+
+.im_grplst_set {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    float: left
+}
+
+.im_grplst_btn {
+    background: #ededed;
+    border: #666666 solid 1px;
+    font-size: 1.6rem;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+
+.im_grplst_sbtn {
+    background: #ededed;
+    border: #666666 solid 1px;
+    font-size: 1.6rem;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    left: 50%;
+    top: 50%;
+}
+
+/*底部导航*/
+.im_lst_foot {
+    margin: 0 auto;
+    height: 12%;
+    width: 100%;
+    text-align: left;
+    background: #ededed;
+    float: left;
+}
+
+.im_lst_panle {
+    margin: 0 auto;
+    height: 100%;
+    line-height: 100%;
+    width: 24%;
+    text-align: center;
+    background: #ededed;
+    float: left;
+    font-size: 1.6rem;
+    color: #666666;
+}
+
+.im_lst_panle span {
+    margin: 0 auto;
+    height: 50%;
+    line-height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.im_lst_panle span img {
+    margin: 0 auto;
+    height: 75%;
+    width: auto;
+    clear: both;
+    display: block;
+}
+
+.im_lst_select {
+    color: #0000CC;
+}
+
+/*设置*/
+.im_set_lst {
+    width: 100%;
+    display: inline-block;
+}
+
+.im_set_img {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.im_set_line {
+    width: auto;
+    margin: 0 auto;
+    height: 2rem;
+    display: inline-block
+}
+
+.im_set_line_1 {
+    width: 100%;
+    margin: 0 auto;
+    height: 1rem;
+    display: inline-block
+}
+
+.im_set_line_05 {
+    width: 100%;
+    margin: 0 auto;
+    height: 0.5rem;
+    display: inline-block
+}
+
+.im_set_img img {
+    border: 0;
+    margin: 20px;
+    max-width: 120px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.im_set_L {
+    width: 25%;
+    float: left;
+    text-align: right;
+    font-size: 1.8rem;
+    color: #666666;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.im_set_R {
+    width: auto;
+    width: 68%;
+    float: left;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 10px;
+    height: auto;
+    min-height: 4rem;
+    line-height: 4rem;
+}
+
+.im_set_Row {
+    width: 93%;
+    float: left;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #666666;
+    padding-left: 10px;
+    height: auto;
+    min-height: 4rem;
+    line-height: 4rem;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.im_set_NL {
+    width: 25%;
+    float: left;
+    text-align: right;
+    font-size: 1rem;
+    color: #666666;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.im_set_NR {
+    width: auto;
+    min-width: 65%;
+    float: left;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #666666;
+    padding-left: 10px;
+    height: 2rem;
+    line-height: 2rem;
+    word-break: break-all;
+}
+
+.im_set_info {
+    width: auto;
+    min-width: 65%;
+    float: left;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 10px;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.gray1 {
+    background: #ededed
+}
+
+.infoTxt {
+    Font-size: 1em;
+    max-width: 100%
+}
+
+.im_lst_L {
+    width: 15%;
+    float: left;
+    text-align: right;
+    font-size: 2rem;
+    color: #666666;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.im_lst_R {
+    width: auto;
+    width: 82%;
+    float: left;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 10px;
+    height: auto;
+    min-height: 4rem;
+    line-height: 4rem;
+    word-break: break-all;
+}
+
+
+/*帮助*/
+.im_help {
+    float: left;
+    width: 100%;
+}
+
+.im_help_q {
+    float: left;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    word-break: break-all;
+}
+
+.im_help_q img {
+    width: 2rem;
+    top: 1rem;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+.im_help_a {
+    float: left;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #666;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    word-break: break-all;
+    text-align: left;
+    text-indent: 3.2rem;
+}
+
+.im_help_img {
+    float: left;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.im_help_img img {
+    width: 90%;
+    height: auto;
+    border: 1px solid #ededed;
+    margin: 0 auto;
+}
+
+.im_help_c3 {
+    color: #333;
+}
+
+.im_help_c6 {
+    color: #666;
+}
+
+.im_help_t1 {
+    float: left;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 38%;
+    word-break: break-all;
+    border: 1px solid #ededed
+}
+
+.im_help_t2 {
+    float: left;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 19%;
+    word-break: break-all;
+    border: 1px solid #ededed
+}
+
+.hide {
+    display: none
+}
+
+/*分享*/
+.im_share_lst {
+    float: left;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #666;
+    padding: 5px 0 5px 0;
+    max-width: 98%;
+    word-break: break-all;
+    text-align: center;
+}
+
+.im_share_row {
+    float: left;
+    font-size: 1.6rem;
+    color: #666;
+    padding: 5px 0 5px 0;
+    width: 100%;
+    word-break: break-all;
+    text-align: left;
+}
+
+.im_help_img table {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.im_help_img table th {
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 1.4rem;
+    color: #666;
+}
+
+.im_help_img table td {
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+    color: #666;
+    text-align: center;
+}
+
+.im_share_id {
+    width: 50%; /*自动适应父布局宽度*/
+    overflow: auto;
+    word-break: break-all;
+    font-size: 2rem;
+    /*在ie中解决断行问题(防止自动变为在一行显示，主要解决ie兼容问题，ie8中当设宽度为100%时，文本域类容超过一行时，当我们双击文本内容就会自动变为一行显示，所以只能用ie的专有断行属性“word-break或word-wrap”控制其断行)*/
+}
+
+/* textarea 自适应父容器大小 */
+.comments {
+    width: 98%; /*自动适应父布局宽度*/
+    overflow: auto;
+    word-break: break-all;
+    font-size: 2rem;
+    margin: 0 auto;
+    /*在ie中解决断行问题(防止自动变为在一行显示，主要解决ie兼容问题，ie8中当设宽度为100%时，文本域类容超过一行时，当我们双击文本内容就会自动变为一行显示，所以只能用ie的专有断行属性“word-break或word-wrap”控制其断行)*/
+}
+
+.textbox {
+    width: 98%;
+    overflow: auto;
+    word-break: break-all;
+    font-size: 1.6rem;
+    margin: 0 auto;
+}

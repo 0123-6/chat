@@ -5,4 +5,114 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="true">
+    <filter>
+          <filter-name>encode</filter-name>
+          <filter-class>filter.Encoding</filter-class>
+      </filter>
+    <filter-mapping>
+          <filter-name>encode</filter-name>
+          <url-pattern>/*</url-pattern>
+      </filter-mapping>
+
+    <filter>
+        <filter-name>AuthorityInterception</filter-name>
+        <filter-class>filter.AuthorityInterception</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthorityInterception</filter-name>
+        <url-pattern>/display.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>AuthorityInterception</filter-name>
+        <url-pattern>/updateInformation.jsp</url-pattern>
+    </filter-mapping>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/404.jsp</location>
+    </error-page>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>servlet.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>servlet.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExistUser</servlet-name>
+        <servlet-class>servlet.ExistUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExistUser</servlet-name>
+        <url-pattern>/existUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ExistEmail</servlet-name>
+        <servlet-class>servlet.ExistEmail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExistEmail</servlet-name>
+        <url-pattern>/existEmail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>servlet.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateInformation</servlet-name>
+        <servlet-class>servlet.UpdateInformation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateInformation</servlet-name>
+        <url-pattern>/updateInformation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindUser</servlet-name>
+        <servlet-class>servlet.FindUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindUser</servlet-name>
+        <url-pattern>/findUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Addfriend</servlet-name>
+        <servlet-class>servlet.Addfriend</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Addfriend</servlet-name>
+        <url-pattern>/addfriend</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Friends</servlet-name>
+        <servlet-class>servlet.Friends</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Friends</servlet-name>
+        <url-pattern>/friends</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
